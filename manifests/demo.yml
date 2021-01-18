@@ -33,7 +33,7 @@ spec:
       - name: regcred 
       containers:
       - name: primary
-        image: 54159436666.dkr.ecr.us-west-2.amazonaws.com/project2/spinkubv2demo:3
+        image: 54159436666.dkr.ecr.us-west-2.amazonaws.com/project2/spinkubv2demo:8
         ports:
         - containerPort: 8000
         readinessProbe:
