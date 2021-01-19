@@ -30,10 +30,10 @@ spec:
         app: spinnaker
     spec:
       imagePullSecrets:
-      - name: regcred 
+      - name: us-west-2-ecr-registry
       containers:
       - name: primary
-        image: 54159436666.dkr.ecr.us-west-2.amazonaws.com/project2/spinkubv2demo:8
+        image: aneez004/spinkubv2demo
         ports:
         - containerPort: 8000
         readinessProbe:
