@@ -33,7 +33,7 @@ spec:
       - name: us-west-2-ecr-registry
       containers:
       - name: primary
-        image: aneez004/spinkubv2demo
+        image: 054159436666.dkr.ecr.us-west-2.amazonaws.com/project2/spinkubv2demo:5
         ports:
         - containerPort: 8000
         readinessProbe:
